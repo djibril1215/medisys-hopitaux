@@ -1,0 +1,30 @@
+{
+  "name": "medisys-hopitaux",
+  "version": "1.0.0",
+  "description": "Microservice de gestion des hôpitaux et de leur interconnexion pour le projet MediSys.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djibril1215/medisys-hopitaux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/djibril1215/medisys-hopitaux/issues"
+  },
+  "homepage": "https://github.com/djibril1215/medisys-hopitaux#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.22.0"
+  }
+}
