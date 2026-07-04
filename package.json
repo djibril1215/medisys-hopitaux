@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/djibril1215/medisys-hopitaux#readme",
   "dependencies": {
+    "axios": "^1.18.1",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
