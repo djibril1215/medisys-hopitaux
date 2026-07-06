@@ -1,8 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 require('dotenv').config();
 const hopitalRoutes = require('./routes/hopitalRoutes');
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
